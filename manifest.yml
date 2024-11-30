@@ -1,0 +1,7 @@
+applications:
+  - name: 06FirstNode
+    memory: 256M
+    instances: 1
+    buildpack: nodejs_buildpack
+    command: node server.js
+
